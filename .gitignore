@@ -1,13 +1,31 @@
+# built application files
+*.apk
+*.ap_
+
+# files for the dex VM
+*.dex
+
+# Java class files
 *.class
-*.log
 
-# sbt specific
-dist/*
+# generated files
+bin/
+gen/
+libs/
+proguard_cache/
+proguard_cache_conf/
 target/
-lib_managed/
-src_managed/
-project/boot/
-project/plugins/project/
+tmp/
 
-# Scala-IDE specific
-.scala_dependencies
+# Local configuration file (sdk path, etc)
+build.xml
+local.properties
+proguard-project.txt
+.cache
+.classpath
+.project
+.settings/
+
+# Emacs files
+*~
+\#*\#
